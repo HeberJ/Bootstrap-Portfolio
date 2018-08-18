@@ -13,8 +13,8 @@
 
 <body class="container-fluid px-0">
   <header class=" container-fluid bg-primary sticky-top">
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">Heber Jimenez</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="index.html">Heber Jimenez</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -22,26 +22,26 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link active" href="#">About</a>
+            <a class="nav-link active" href="index.html">About</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
 
-  <div class="container">
-    <section class="row mx-auto">
+  <div id="main-sec" class="container-fluid">
+    <section class="row mx-auto container">
       <div class="col my-5 border border-primary bg-light rounded">
         <h2 class="mx-2 my-0 py-3 px-2">About Me</h2>
 
         <figure class="mx-2 py-3 border border-right-0 border-bottom-0 border-left-0">
-          <img class="float-left mb-3 mr-3 border-primary img-fluid rounded" src="assets/images/picture2.png" alt="Heber Jimenez">
+          <img id="me-pic" class="float-left mr-3 border-primary img-fluid rounded" src="assets/images/picture2.png" alt="Heber Jimenez">
 
           <p>
             Hello, my name is Heber Jimenez. I am a currently attending the Kansas University Coding Bootcamp. I am eager to start my
@@ -57,9 +57,9 @@
     </section>
   </div>
 
-  <footer class="footer sticky-bottom">
+  <footer class="footer bg-primary ">
     <div class="container">
-      <span class="text-muted">Copyright©</span>
+      <span class="text-light text-center">Copyright©</span>
     </div>
   </footer>
 
